@@ -6,12 +6,10 @@ print(a)
 
 n=len(a)
 
-t=0
 
 for i in range(0,n):
     z=a[i]
-    b.insert(z,t)
-    t=t+1
+    b[z]=b[z]+1
 w=0
 for j in range (0,9):
     q=b[j]
@@ -22,7 +20,6 @@ for j in range (0,9):
         w=w+1
 
 print(a)
-
 
 
 
